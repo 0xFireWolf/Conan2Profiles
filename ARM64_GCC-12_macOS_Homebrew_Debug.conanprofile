@@ -1,8 +1,6 @@
 [settings]
 os=Macos
-os_build=Macos
 arch=armv8
-arch_build=armv8
 compiler=gcc
 compiler.version=12
 compiler.libcxx=libstdc++11
