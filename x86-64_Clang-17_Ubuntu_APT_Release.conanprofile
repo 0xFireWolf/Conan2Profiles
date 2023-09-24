@@ -1,0 +1,11 @@
+[settings]
+os=Linux
+arch=x86_64
+compiler=clang
+compiler.version=17
+compiler.libcxx=libc++
+build_type=Release
+
+[buildenv]
+CC=/usr/bin/clang-17
+CXX=/usr/bin/clang++-17
