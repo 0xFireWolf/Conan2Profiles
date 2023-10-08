@@ -1,0 +1,11 @@
+[settings]
+os=Linux
+arch=x86_64
+compiler=clang
+compiler.version=13
+compiler.libcxx=libstdc++11
+build_type=Debug
+
+[buildenv]
+CC=/home/linuxbrew/.linuxbrew/opt/llvm@13/bin/clang
+CXX=/home/linuxbrew/.linuxbrew/opt/llvm@13/bin/clang++
