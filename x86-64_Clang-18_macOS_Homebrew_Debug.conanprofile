@@ -1,0 +1,11 @@
+[settings]
+os=Macos
+arch=x86_64
+compiler=clang
+compiler.version=18
+compiler.libcxx=libc++
+build_type=Debug
+
+[buildenv]
+CC=/usr/local/opt/llvm@18/bin/clang
+CXX=/usr/local/opt/llvm@18/bin/clang++

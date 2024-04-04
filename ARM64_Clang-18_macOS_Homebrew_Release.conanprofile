@@ -1,0 +1,11 @@
+[settings]
+os=Macos
+arch=armv8
+compiler=clang
+compiler.version=18
+compiler.libcxx=libc++
+build_type=Release
+
+[buildenv]
+CC=/opt/homebrew/opt/llvm@18/bin/clang
+CXX=/opt/homebrew/opt/llvm@18/bin/clang++
