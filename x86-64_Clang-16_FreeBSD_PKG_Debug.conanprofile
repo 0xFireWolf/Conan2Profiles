@@ -1,0 +1,11 @@
+[settings]
+os=FreeBSD
+arch=x86_64
+compiler=clang
+compiler.version=16
+compiler.libcxx=libc++
+build_type=Debug
+
+[buildenv]
+CC=/usr/local/bin/clang16
+CXX=/usr/local/bin/clang++16
