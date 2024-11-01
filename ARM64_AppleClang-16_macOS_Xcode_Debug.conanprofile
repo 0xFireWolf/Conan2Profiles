@@ -1,0 +1,11 @@
+[settings]
+os=Macos
+arch=armv8
+compiler=apple-clang
+compiler.version=16
+compiler.libcxx=libc++
+build_type=Debug
+
+[buildenv]
+CC=/usr/bin/clang
+CXX=/usr/bin/clang++
