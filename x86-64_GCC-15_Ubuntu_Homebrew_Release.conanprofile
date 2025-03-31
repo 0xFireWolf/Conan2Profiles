@@ -1,0 +1,11 @@
+[settings]
+os=Linux
+arch=x86_64
+compiler=gcc
+compiler.version=15
+compiler.libcxx=libstdc++11
+build_type=Release
+
+[buildenv]
+CC=/home/linuxbrew/.linuxbrew/bin/gcc-15
+CXX=/home/linuxbrew/.linuxbrew/bin/g++-15
