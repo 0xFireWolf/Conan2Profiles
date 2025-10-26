@@ -1,0 +1,11 @@
+[settings]
+os=Macos
+arch=x86_64
+compiler=clang
+compiler.version=21
+compiler.libcxx=libc++
+build_type=Release
+
+[buildenv]
+CC=/usr/local/opt/llvm@21/bin/clang
+CXX=/usr/local/opt/llvm@21/bin/clang++
